@@ -1,0 +1,28 @@
+create table employee(emp_id number(3),first_name varchar2(20),last_name varchar2(20),salary number(7),designation varchar2(20));
+
+
+insert into employee values(100,'niket','pendkar',57253,'QA');
+insert into employee values(101,'shweta','pendkar',62461,'Senior QA');
+insert into employee values(102,'sumit','pendkar',79272,'Qa Specialist');
+insert into employee values(103,'narayani','cholkar',21647,'qa Engineer');
+insert into employee values(104,'vinod','cholkar',92840,'QA');
+insert into employee values(105,'nanananan','cholkar',92877,'qA Manager');
+insert into employee values(106,'nagendra','cholkar',900,'Qa Lead');
+insert into employee values(107,'NAGENDRA','Yerawar',9998,'Manager');
+
+1. WAQ to get the salary sorted in Ascending order
+2. WAQ to get the salary sorted in Descending order 
+3. Company has given yearly bonus as 5000 to every employee and annual hike as 7.2%.
+Calculate the revised salary of employee and sort in ascending order for revised salary.
+4. Sort the table in descending order for 3rd column.
+5. WAQ to fetch all the records that are matching with keyword as qa(in all small, capital and combination cases) in the designation.
+6. WAQ to display all the first name in upper case.
+7. WAQ to display the merged name for first three letters of first_name and first three letters of last_name.
+8. WAQ to merge the first name and last name.
+9. WAQ to fetch all the records having first name length more than 5 characters.
+10. For employee having first name as 'niket', replace it with 'NIKET'
+11. In the first name whereever there is character 'a' is present in the first name, remove the character and display the remaining name that removed character a.
+12. WAQ to find if there is character 'i' present in first name, display at what index position the character is present.
+13. For Q#3, apply the rounding off function upto 2 decimal places and truncate it till 4 decimal places.
+14. WAQ to display the salary in K.
+FOr example if sumit earns 25000, it should be displayed as 25k.
